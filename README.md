@@ -132,6 +132,7 @@ Due to SQLite limitations and project scope, this implementation focuses on logi
 3. Run:
 
 go mod tidy
+
 go run main.go
 
 Server will start at:
