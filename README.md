@@ -135,8 +135,13 @@ go mod tidy
 
 go run main.go
 
-Server will start at:
+Server will start locally at:
+
 http://localhost:8080
+
+Note:
+This URL works only after running `go run main.go` on your local machine.
+The API is not deployed online, so accessing this link from GitHub without running the server will show "Unable to connect".
 
 ---
 
