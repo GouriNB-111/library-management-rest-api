@@ -129,17 +129,20 @@ Due to SQLite limitations and project scope, this implementation focuses on logi
 
 1. Install Go.
 2. Navigate to the project folder.
-3. Run:
+3. Run the following commands:
 
+```
 go mod tidy
-
 go run main.go
+```
 
-Server will start locally at: http://localhost:8080
+The server will start locally at:
+
+http://localhost:8080
+
 Note:
 This URL works only after running `go run main.go` on your local machine.
 The API is not deployed online, so accessing this link from GitHub without running the server will show "Unable to connect".
-
 ---
 
 ## Assumptions
